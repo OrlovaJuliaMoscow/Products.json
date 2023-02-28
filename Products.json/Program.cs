@@ -7,6 +7,7 @@ using System.Text.Json;
 using System.IO;
 using System.Text.Encodings.Web;
 using System.Text.Unicode;
+using Products.json;
 
 namespace Products.json
 {

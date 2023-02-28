@@ -21,8 +21,8 @@ namespace App2
             }
             Product [] products = JsonSerializer.Deserialize<Product[]>(jsonString);
 
-            Product maxProduct= products[0];
-            foreach(Products p in products)
+            Product [] maxProduct= products[0];
+            foreach(Product p in products)
             {
                 if (p.Summa>maxProduct.Summa)
                 { maxProduct= p; }
